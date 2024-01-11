@@ -1,0 +1,10 @@
+[LOGGER] 2024-01-11 12:45:45.308 PM error : Error in src/controller/product.controller.js:createProduct - 
+Invalid `prisma.product.create()` invocation:
+
+{
+  data: {
++   name: String
+  }
+}
+
+Argument `name` is missing.
